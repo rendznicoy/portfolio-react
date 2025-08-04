@@ -1,6 +1,4 @@
 import {
-  mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -8,21 +6,24 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  vue,
   tailwind,
-  nodejs,
-  mongodb,
+  laravel,
+  mysql,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  wela,
+  ninekp,
+  pageant,
+  revams,
+  tally,
+  rest,
+  python,
+  jinja,
+  c,
+  cplusplus,
+  visayas,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +43,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Fullstack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
+    title: "UI/UX Designer",
     icon: creator,
   },
 ];
@@ -81,24 +74,24 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Vue JS",
+    icon: vue,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Laravel",
+    icon: laravel,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "MySQL",
+    icon: mysql,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "REST API",
+    icon: rest,
   },
   {
     name: "git",
@@ -112,102 +105,88 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Jinja",
+    icon: jinja,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "C++",
+    icon: cplusplus,
+  },
+];
+
+const education = [
+  {
+    education: "Bachelor of Science in Computer Science",
+    institution: "Visayas State University",
+    icon: visayas,
+    iconBg: "#383E56",
+    date: "September 2021 - July 2025",
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Intern Fullstack Developer",
+    company_name: "Wela School Systems",
+    icon: wela,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Built and optimized print formats using HTML, CSS, JS, Python, and Jinja.",
+      "Worked closely with tech leads, PMs, and devs to deliver quality solutions.",
+      "Ensured responsive design and cross-browser functionality.",
+      "Joined weekly team syncs and contributed feedback on code improvements.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Freelance Developer",
+    company_name: "9KP Ventures",
+    icon: ninekp,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "September 2021 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing web applications using Vue.js and other related technologies.",
+      "Developing command line applications using C, C++, and Python.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Freelance UI/UX Designer",
+    company_name: "9KP Ventures",
+    icon: ninekp,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "September 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created user-friendly interface designs and experiences for web applications using Figma.",
+      "Collaborating with other designers, project managers, and other developers to ensure compatabilty of designs with the actual frontend code.",
     ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pageant Scoring System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web platform for Visayas State University that streamlines pageant management—enabling users to easily manage candidates, judges, events, rounds, and categories.",
     tags: [
       {
-        name: "react",
+        name: "vue",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "mysql",
         color: "green-text-gradient",
       },
       {
@@ -215,51 +194,48 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pageant,
+    source_code_link: "https://github.com/rendznicoy/pageant-backend",
   },
   {
-    name: "Job IT",
+    name: "Revenue and Attendance Management System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web app for managing revenue, attendance, members, and events—featuring QR-based tracking (with RFID upgrade planned) and an intuitive dashboard for real-time data insights.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
+        name: "nextjs",
+        color: "red-text-gradient",
+      },
+      {
         name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: revams,
+    source_code_link: "https://re-vams.vercel.app/admin/login",
   },
   {
-    name: "Trip Guide",
+    name: "Tally Board Application UI/UX Design",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A design for a full-featured tally board system managing candidates, voting areas, and admin roles, with real-time data visualization for voting trends and results.",
     tags: [
       {
-        name: "nextjs",
+        name: "figma",
         color: "blue-text-gradient",
       },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tally,
+    source_code_link:
+      "https://www.figma.com/design/YvjQPJ5DtXklKpi6in6dL1/Tally-Board?node-id=15-4&t=81ZT3E5J8FU08Lr1-1",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, education, experiences, projects };
